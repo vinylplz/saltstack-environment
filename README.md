@@ -8,7 +8,7 @@ otherwise you will run into problems trying to add the vagrant box (below).
 2. Install virtualbox
 
   ```bash
-  $ sudo apt-get install vagrant virtualbox
+  $ sudo apt-get install virtualbox
   ```
   
 3. Clone this repo
