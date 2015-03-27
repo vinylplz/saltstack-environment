@@ -49,7 +49,7 @@ otherwise you will run into problems trying to add the vagrant box (below).
   saltstack-environment$
   ```
 
-5. Install the chef/debian7.7 vagrant box if you don't have it already
+5. Install the chef/debian-7.7 vagrant box if you don't have it already.  Choose the virtualbox provider.
 
   ```bash
   saltstack-environment$ vagrant box add chef/debian-7.7
