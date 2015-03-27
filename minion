@@ -1,0 +1,6 @@
+file_client: local
+
+grains:
+  roles:
+    - jira
+    - jira_db
