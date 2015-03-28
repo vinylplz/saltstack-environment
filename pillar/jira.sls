@@ -6,9 +6,21 @@ jira:
   source_hash: 'md5=1321c995b9cbddef79c146cdc42f95fb'
   version: 6.4
 
-  lf:
-    gadget:
-      color1: '#3b73aa'
-
   jvm_Xms: 768m
   jvm_Xmx: 768m
+
+  properties:
+    jira.lf.top.bgcolour: '#169e2b'
+    jira.lf.top.hilightcolour: '#76c748'
+    jira.lf.top.textcolour: '#fff426'
+    jira.lf.top.texthilightcolour: '#f0f0f0'
+    jira.lf.menu.bgcolour: '#f20505'
+    jira.lf.menu.textcolour: '#ffffff'
+    jira.lf.hero.button.base.bg.colour: '#ff6b6b'
+    jira.lf.hero.button.text.colour: '#ffffff'
+    jira.lf.text.activelinkcolour: '#3b73af'
+    jira.lf.text.headingcolour: '#292929'
+    jira.lf.text.linkcolour: '#3b73af'
+    jira.lf.gadget.color1: '#169e2b'
+
+
