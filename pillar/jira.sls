@@ -12,6 +12,7 @@ jira:
   properties:
     jira.lf.top.bgcolour: '#169e2b'
     jira.lf.top.hilightcolour: '#76c748'
+    jira.lf.top.separator.bgcolor: '#329441'
     jira.lf.top.textcolour: '#fff426'
     jira.lf.top.texthilightcolour: '#f0f0f0'
     jira.lf.menu.bgcolour: '#f20505'
