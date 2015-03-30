@@ -134,3 +134,8 @@ otherwise you will run into problems trying to add the vagrant box (below).
   [INFO    ] Loading cache from salt://_modules, for base)
   (...)
   ```
+9. Verify everything started up properly by checking apache and jira in your browser:  
+
+  * *apache* : [http://localhost:8080](http://localhost:8080)
+  * *jira*   : [http://localhost:8081](http://localhost:8081)
+
