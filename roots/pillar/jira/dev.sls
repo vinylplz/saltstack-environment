@@ -1,7 +1,9 @@
+#include 'jira/common.sls'
+
 jira:
   # uncomment this if you have a local atlassian-jira.tar.gz in /srv/salt/jira
   # for much faster deploys
-  #source_url: salt://jira
+#  source_url: salt://jira
 
   source_hash: 'md5=1321c995b9cbddef79c146cdc42f95fb'
   version: 6.4

@@ -40,9 +40,7 @@ Vagrant.configure(2) do |config|
   # the path on the guest to mount the folder. And the optional third
   # argument is a set of non-required options.
   # config.vm.synced_folder "../data", "/vagrant_data"
-  config.vm.synced_folder "salt", "/srv/salt"
-  config.vm.synced_folder "pillar", "/srv/pillar"
-  config.vm.synced_folder "formulas", "/srv/formulas"
+  config.vm.synced_folder "roots/", "/srv/"
 
   # Provider-specific configuration so you can fine-tune various
   # backing providers for Vagrant. These expose provider-specific options.
@@ -53,7 +51,7 @@ Vagrant.configure(2) do |config|
   #   vb.gui = true
   #
     # Customize the amount of memory on the VM:
-    vb.memory = "1024"
+    vb.memory = "2048"
   end
   #
   # View the documentation for the provider you are using for more

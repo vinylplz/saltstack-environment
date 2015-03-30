@@ -4,3 +4,13 @@ grains:
   roles:
     - jira
     - jira_db
+
+file_roots:
+  base:
+    - /srv/salt/base
+  dev:
+    - /srv/salt/dev
+    - /srv/salt/base
+  prod:
+    - /srv/salt/prod
+    - /srv/salt/base
