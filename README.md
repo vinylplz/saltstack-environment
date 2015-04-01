@@ -139,3 +139,4 @@ otherwise you will run into problems trying to add the vagrant box (below).
   * *apache* : [http://localhost:8080](http://localhost:8080)
   * *jira*   : [http://localhost:8081](http://localhost:8081)
 
+10. When you're all done, you can shut down the VM with `vagrant destroy`
